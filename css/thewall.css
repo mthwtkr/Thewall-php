@@ -1,0 +1,181 @@
+.inline-block{
+	display: inline-block;
+}
+
+.highlight{
+	background-color: lightyellow;
+	border-color: red;
+}
+
+.container{
+	margin: 10px auto;
+}
+#header{
+	width: 750px;
+	height: 50px;
+	border: 2px solid black;
+	margin-right: 10px;
+}
+	#header .col-md-3 h1{
+		/*margin-left: 10px;*/
+		margin-top: 15px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#header .col-md-3 h1 a{
+		text-decoration: none;
+		color: black;
+	}
+	#header .col-md-2{
+		margin-top: 15px;
+		margin-right: 10px;
+	}
+
+	
+#main_content{
+	margin: 30px 0px 0px 40px;
+}
+	#main_content h2{
+		font-size: 16px;
+
+	}
+	#main_content img{
+		width: 650px;
+	}
+	#main_content form{
+		width: 210px;
+		padding: 5px 0px;
+		border: 1px solid black;
+	}
+	#main_content form input{
+		margin: 5px;
+		margin-left: 10px;
+		width: 185px;
+	}
+
+#register_success{
+	width: 450px;
+	height: 228px;
+	vertical-align: bottom;
+}
+	#register_success h2{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	#register_success img{
+		width: 165px;
+		margin-left: 125px;
+	}
+
+#post_message form, #post_comment form{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#post_message{
+	display: block;
+}
+	#post_message h2{
+		margin: 0px;
+	}
+	#post_message #message{
+		width: 645px;
+		height: 100px;
+		resize: none;
+		border: 2px solid black;
+	}
+	#post_message #message_submit{
+		width: 125px;
+		margin-left: 520px;
+		background-color: #2874E0;
+		color: white;
+		border: 1px solid black;
+		box-shadow: 2px 2px 2px #000;
+		text-shadow: 2px -1px 1px #000;
+	}
+
+#delete_message form{
+	border: none;
+	width: 65px;
+}
+	#delete_message #delete_submit{
+		width: 60px;
+		height: 25px;
+		margin-left: 0px;
+		color: black;
+		font-weight: bold;
+		background-color: red;
+		border: 1px solid black;
+		box-shadow: 2px 2px 2px #000;
+	}
+	#delete_message button{
+		height: 25px;
+		font-weight: bold;
+		background-color: yellow;
+		border: 1px solid black;
+		box-shadow: 2px 2px 2px #000;
+	}
+
+#post_comment h2{
+	width: 120px;
+	margin: 0px;
+	margin-left: 40px;
+	margin-bottom: 5px;
+}
+	#post_comment #comment{
+		width: 590px;
+		height: 50px;
+		resize: none;
+		margin-left: 40px;
+		border: 2px solid black;
+	}
+	#post_comment #comment_submit{
+		width: 125px;
+		margin-left: 505px;
+		background-color: green;
+		color: white;
+		border: 1px solid black;
+		box-shadow: 2px 2px 2px #000;
+		text-shadow: 2px -1px 1px #000;
+	}
+
+
+.message_box{
+	width: 645px;
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-top-color: black;
+}
+	.message_title{
+		font-weight: bold;
+		margin-left: 20px;
+	}
+	.message{
+		width: 600px;
+		height: auto;
+		margin-left: 40px;
+	}
+
+.comment_title{
+	font-weight: bold;
+	margin-left: 40px;
+}
+	.comment{
+		width: 600px;
+		height: auto;
+		margin-left: 60px;
+	}
+
+.col-md-5{
+	width: 710px;
+}
+.col-md-2{
+	width: 456px;
+	text-align: right;
+}
+
+#logout{
+	margin-left: 40px;
+}
